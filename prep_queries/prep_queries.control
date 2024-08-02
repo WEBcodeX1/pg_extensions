@@ -1,0 +1,4 @@
+# prep_queries extension
+comment = 'prepare queries extension'
+default_version = '0.1'
+relocatable = false
