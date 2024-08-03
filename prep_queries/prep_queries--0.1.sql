@@ -70,18 +70,18 @@ DECLARE
 
 P_Type					ALIAS FOR $1;
 P_QueryID				ALIAS FOR $2;
-P_JSON_RequestData		ALIAS FOR $3;
-P_JSON_Params			ALIAS FOR $4;
+P_JSON_RequestData			ALIAS FOR $3;
+P_JSON_Params				ALIAS FOR $4;
 
-SQLStatementJSON		text;
-SQLStatementParams 		text;
-SQLStatementTMPTable 	text;
+SQLStatementJSON			text;
+SQLStatementParams 			text;
+SQLStatementTMPTable 			text;
 
 Params					text;
 ParamValue				text;
 
 Element					varchar;
-TmpTableName			varchar;
+TmpTableName				varchar;
 
 R_JSON					json;
 
