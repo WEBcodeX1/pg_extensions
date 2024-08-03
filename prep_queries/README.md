@@ -15,7 +15,7 @@ SELECT
 FROM
 table1
 WHERE
-search_param1 = 'hello' AND search_param2 = 'world'
+search_param1 = 'hello' AND search_param2 = 'world';
 ```
 
 If not prepared, the **whole SQL string** will be sent to the backend, **for each** client request.
