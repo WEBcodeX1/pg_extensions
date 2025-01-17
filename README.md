@@ -4,7 +4,10 @@ Useful PostgreSQL Extensions.
 
 ## prep_queries
 
-Prepare SQL-Queries where Performance is needed.
+Prepare SQL-Queries where performance is needed.
+
+>[!NOTE]
+> PowerDNS 4.0.x implemented prepared queries into Generic PostgreSQL backend.
 
 ## row_history
 
